@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slot Machine Spill</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Bakgrunnslysninger -->
+    <div class="background-lights"></div>
+    <div class="background-lights"></div>
+    <div class="background-lights"></div>
+    <div class="background-lights"></div>
+    <div class="background-lights"></div>
+
+    <!-- Left Advertisement -->
+    <div class="ad-container left-ad">
+        <div class="ad-placeholder">
+            <h3>Reklame</h3>
+            <p>Her kommer din reklame</p>
+        </div>
+    </div>
+
+    <!-- Right Advertisement -->
+    <div class="ad-container right-ad">
+        <div class="ad-placeholder">
+            <h3>Reklame</h3>
+            <p>Her kommer din reklame</p>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <!-- Kantenlysninger -->
+        <div class="lights"></div>
+        <div class="lights"></div>
+        <div class="lights"></div>
+        <div class="lights"></div>
+
+        <h1>Slot Machine</h1>
+        <div class="balance-container">
+            <div class="balance">Balance: <span id="balance">1000</span></div>
+            <div class="bet">Bet: <span id="currentBet">10</span></div>
+        </div>
+        <div class="slot-machine">
+            <div class="reel" id="reel1">
+                <div class="reel-content"></div>
+            </div>
+            <div class="reel" id="reel2">
+                <div class="reel-content"></div>
+            </div>
+            <div class="reel" id="reel3">
+                <div class="reel-content"></div>
+            </div>
+        </div>
+        <div class="controls-container">
+            <div class="controls">
+                <button id="spinButton">SPIN</button>
+                <button id="betUp">↑</button>
+                <button id="betDown">↓</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
